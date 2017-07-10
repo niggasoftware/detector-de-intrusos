@@ -6,7 +6,7 @@ except ImportError:
 
 nm = nmap.PortScanner()
 
-ip_range = raw_input("Inserta rango de IPs, por defecto 192.168.1.0/24\n>")
+ip_range = raw_input("Inserta rango de IPs, por defecto 192.168.0.0/24\n>")
 
 if ip_range == "":
     ip_range = '192.168.0.0/24'
